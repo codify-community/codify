@@ -1,5 +1,9 @@
-export function App() {
+function App() {
   return (
-  <h1>Hello World</h1>
+    <div className="flex flex-col items-center justify-center min-h-svh">
+      <h1>Hello World</h1>
+    </div>
   )
 }
+
+export default App
