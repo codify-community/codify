@@ -8,12 +8,12 @@ export default function Header() {
     <header className="w-full min-h-16 flex items-center justify-between border-b-2 px-20 text-white">
       <div>
         <img
-          src="../../../public/images/logo_text.svg"
+          src="public/images/logo_text.svg"
           alt="logo-codify"
           className="w-35"
         />
       </div>
-      <nav className="flex justify-center itens-center gap-3">
+      <nav className="flex justify-center items-center gap-3">
         <Button
           className="cursor-pointer"
           variant={"outline"}
