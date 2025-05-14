@@ -1,14 +1,13 @@
-import { Helmet, HelmetProvider } from "react-helmet-async"
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import PublicRoutes from "./routes/public";
 
 function App() {
   return (
     <HelmetProvider>
       <Helmet titleTemplate="%s | codify" />
-      <div className="flex flex-col items-center justify-center min-h-svh">
-        <h1>Hello World</h1>
-      </div>
+      <PublicRoutes />
     </HelmetProvider>
-  )
+  );
 }
 
-export default App
+export default App;
