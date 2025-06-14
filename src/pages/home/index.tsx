@@ -1,5 +1,11 @@
 import Header from "@/components/header";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
-  return <Header />;
+  return (
+    <>
+      <Helmet title="Home" />
+      <Header />
+    </>
+  );
 }
