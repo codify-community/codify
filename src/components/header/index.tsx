@@ -8,7 +8,7 @@ export default function Header() {
     <header className="w-full min-h-16 flex items-center justify-between border-b-2 px-20 text-white">
       <div>
         <img
-          src="public/images/logo_text.svg"
+          src="/codify-text-icon.svg"
           alt="logo-codify"
           className="w-35"
         />
