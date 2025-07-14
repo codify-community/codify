@@ -1,6 +1,6 @@
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import PublicRoutes from "./routes/public";
-import { ThemeProvider } from "./components/themeProvider";
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { ThemeProvider } from './components/themeProvider'
+import PublicRoutes from './routes/public'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <PublicRoutes />
       </HelmetProvider>
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App

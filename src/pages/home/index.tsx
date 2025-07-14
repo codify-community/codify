@@ -1,5 +1,5 @@
-import Header from "@/components/header";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from 'react-helmet-async'
+import Header from '@/components/header'
 
 export default function Home() {
   return (
@@ -7,5 +7,5 @@ export default function Home() {
       <Helmet title="Home" />
       <Header />
     </>
-  );
+  )
 }

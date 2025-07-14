@@ -1,5 +1,5 @@
-import Home from "@/pages/home";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from 'react-router-dom'
+import Home from '@/pages/home'
 
 export default function PublicRoutes() {
   return (
@@ -10,5 +10,5 @@ export default function PublicRoutes() {
       <Route path="/staff" element={<Home />} />
       <Route path="/desafios" element={<Home />} />
     </Routes>
-  );
+  )
 }
